@@ -58,15 +58,13 @@ Automating with Cron Jobs
 
 You can set up a cron job to run the script automatically at regular intervals. For example, to run the script at 2 AM every day:
 1.	Open the crontab editor:
-
+ ```bash
 crontab -e
-
+```
 2.	Add the following line to run the script daily:
-
+ ```bash
 0 2 * * * /path/to/python /path/to/kpi_report_automation.py
-
-
-
+```
 This will automatically execute the script and generate the reports every day at 2 AM.
 
 Output
@@ -78,15 +76,6 @@ Output
 	•	aov_per_category.png
 	•	yoy_growth_per_category.png
 	•	Logs: Logs of the execution process can be tracked if necessary.
-
-Contributing
-
-We welcome contributions to improve the project! To contribute:
-	1.	Fork the repository.
-	2.	Create a new branch for your feature or bugfix.
-	3.	Make your changes and commit them.
-	4.	Push your changes to your forked repository.
-	5.	Create a pull request describing the changes you’ve made.
 
 Acknowledgments
 	•	pandas: Used for data manipulation and analysis.
