@@ -1,3 +1,5 @@
+Here’s the full content you can use for the README.md file in your project:
+
 # kpi_report_automation
 
 ## Introduction
@@ -48,17 +50,18 @@ To set up the project on your local machine, follow these steps:
 ## Usage
 To run the automation script manually, use the following command:
 
+```bash
 python kpi_report_automation.py
+```
 
 Automating with Cron Jobs
 
 You can set up a cron job to run the script automatically at regular intervals. For example, to run the script at 2 AM every day:
-	1.	Open the crontab editor:
+1.	Open the crontab editor:
 
 crontab -e
 
-
-	2.	Add the following line to run the script daily:
+2.	Add the following line to run the script daily:
 
 0 2 * * * /path/to/python /path/to/kpi_report_automation.py
 
