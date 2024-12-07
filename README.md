@@ -1,5 +1,3 @@
-Here’s the full content you can use for the README.md file in your project:
-
 # kpi_report_automation
 
 ## Introduction
